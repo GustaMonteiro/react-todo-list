@@ -1,0 +1,29 @@
+.ItemList {
+  display: flex;
+  width: 672px; 
+  height: 44px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.task-input {
+  width: 550px;
+  border: none;
+  font-size: 36px;
+  padding: 0 15px;
+  color: #7B7B7B;
+  outline: none;
+}
+
+.delete-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(255, 0,0,0.54);
+  color: white;
+  border: none;
+}
